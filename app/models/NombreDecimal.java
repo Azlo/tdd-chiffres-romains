@@ -17,7 +17,7 @@ public class NombreDecimal {
     		return "I";
     	} else if (valeur==2) {
     		return "II";
-    	}
+    	} 
     	else {
     		return "";
     	}
