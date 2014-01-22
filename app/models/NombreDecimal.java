@@ -17,7 +17,7 @@ public class NombreDecimal {
     }
 
     public static String[] table_unites = {
-        "","I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII","XIII"
+        "","I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII","XIII","XIV","XV","XVI","XVII","XVIII","XIX","XX","XXI","XXII","XXIII"
     };
 
     public String en_romain_unites(int n) {
