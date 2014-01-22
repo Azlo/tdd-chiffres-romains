@@ -71,5 +71,20 @@ public class ApplicationTest {
 		assert_en_romain(33,"XXXIII");
 		assert_en_romain(34,"XXXIV");
 		assert_en_romain(35,"XXXV");
+		assert_en_romain(36,"XXXVI");
+		assert_en_romain(37,"XXXVII");
+		assert_en_romain(38,"XXXVIII");
+		assert_en_romain(39,"XXXIX");
+		assert_en_romain(40,"XL");
+		assert_en_romain(41,"XLI");
+		assert_en_romain(42,"XLII");
+		assert_en_romain(43,"XLIII");
+		assert_en_romain(44,"XLIV");
+		assert_en_romain(45,"XLV");
+		assert_en_romain(46,"XLVI");
+		assert_en_romain(47,"XLVII");
+		assert_en_romain(48,"XLVIII");
+		assert_en_romain(49,"XLIX");
+		assert_en_romain(50,"L");
     }
 }
