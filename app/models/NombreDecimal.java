@@ -16,9 +16,12 @@ public class NombreDecimal {
     	return en_romain_unites(valeur);
     }
 
-    public static String[] table_unites = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"}; 
+    public static String[] table_unites = {
+        "","I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII","XIII"
+    };
 
-    String en_romain_unites(int n) {
-    	return table_unites[n];
+    public String en_romain_unites(int n) {
+        return table_unites[n];
     }
+
 }
