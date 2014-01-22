@@ -13,17 +13,12 @@ public class NombreDecimal {
     }
 
     public String en_romain() {
-    	if (valeur==1) {
-    		return "I";
-    	} else if (valeur==2) {
-    		return "II";
-    	} else if (valeur==3) {
-    		return "III";
-    	} else if (valeur==4) {
-    		return "IV";
-    	}
-    	else {
-    		return "";
-    	}
+    	return en_romain_unites(valeur);
+    }
+
+    public static String[] table_unites = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"}; 
+
+    String en_romain_unites(int n) {
+    	return table_unites[n];
     }
 }
